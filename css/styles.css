@@ -24,7 +24,7 @@ h1 {
   /* propiedad -> color,  red -> valor   */
   /* font-family: 'Pacifico', sans-serif; */
   text-align: center;
-  font-size: 6rem;
+  font-size: 6rem; 
 }
 
 h3 {
@@ -259,9 +259,9 @@ img {
 .img-historia {
   text-align: center;
   max-width: 500px;
-  margin: 0 auto 80px;
+  margin: 0 auto 80px;  
 }
-
+ 
 .img-historia img {
   width: 100%;
 }
@@ -529,10 +529,18 @@ img {
     grid-template-columns: repeat(1, minmax(200px, 1fr));
   }
 
-  .hero .title-hero {
+  .title-servicios {
+    font-size: 1.8rem;
+  } 
+
+  .title-contacto { 
+    font-size: 1.8rem;
+  } 
+
+  .hero .title-hero { 
     font-size: 2rem;
   }
-
+ 
   .hero a {
     padding: 0.1rem 0.3rem;
     font-size: 0.6rem;
@@ -563,4 +571,8 @@ img {
 }
 
 @media screen and (max-width: 320px) {
+
+  .container-servicios {
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
+  } 
 }
